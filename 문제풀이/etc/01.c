@@ -4,6 +4,8 @@
 #include <stdlib.h>
 
 /*
+    누적평균 : 선형 시간복잡도로 구하기
+
     배열 arr가 주어졌을 때 누적평균(정수로 반올림) 을 담은 배열 prefixAverages 구하기
     * prefixAverages1 : 2중 for문 이용 O(n^2)
     * prefixAverages2 : 단일 for문을 이용한 성능 향상 O(n)
